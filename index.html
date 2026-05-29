@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Gekozen - Presentaties</title>
+<meta name="description" content="Presentaties van AI Gekozen voor klanten, brancheorganisaties en netwerken.">
+<style>
+  :root {
+    --bg: #F5EFE6;
+    --ink: #1A1A1A;
+    --muted: #6B6B6B;
+    --accent: #B5532A;
+    --line: rgba(26,26,26,0.12);
+    --serif: "Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Source Serif Pro", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 80px 40px 120px; }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 80px;
+  }
+  .brand {
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 500;
+    position: relative;
+  }
+  .brand::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 1px;
+    background: var(--ink);
+  }
+  .brand-dot { color: var(--accent); margin: 0 1px; }
+  .tagline {
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 500;
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 12px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  .eyebrow::before {
+    content: "";
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+  h1 {
+    font-family: var(--serif);
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+  }
+  .lede {
+    font-size: 19px;
+    line-height: 1.55;
+    color: #2A2A2A;
+    max-width: 640px;
+    margin-bottom: 64px;
+  }
+  .list { list-style: none; border-top: 1px solid var(--line); }
+  .list li { border-bottom: 1px solid var(--line); }
+  .list a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 4px;
+    text-decoration: none;
+    color: var(--ink);
+    transition: padding 0.25s ease, color 0.25s ease;
+  }
+  .list a:hover { padding-left: 14px; color: var(--accent); }
+  .list .title {
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  .list .meta {
+    font-size: 13px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 500;
+  }
+  footer {
+    margin-top: 96px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  footer a { color: var(--muted); text-decoration: none; }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">Ai<span class="brand-dot">.</span>gekozen</div>
+    <div class="tagline">AI vindbaarheid voor lokaal MKB</div>
+  </header>
+  <main>
+    <div class="eyebrow">Presentaties</div>
+    <h1>Voor klanten, brancheorganisaties en lokale MKB-netwerken.</h1>
+    <p class="lede">
+      Korte presentaties die uitleggen hoe lokale ondernemers gevonden &eacute;n gekozen worden
+      in AI-antwoorden, Google Maps en lokale zoekresultaten.
+    </p>
+    <ul class="list">
+      <li>
+        <a href="./mkb-rotterdam/">
+          <span class="title">MKB Rotterdam &times; AI Gekozen</span>
+          <span class="meta">9 slides</span>
+        </a>
+      </li>
+    </ul>
+  </main>
+  <footer>
+    <span>aigekozen.nl</span>
+    <a href="https://aigekozen.nl">terug naar website</a>
+  </footer>
+</div>
+</body>
+</html>
